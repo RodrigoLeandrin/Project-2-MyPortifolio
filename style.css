@@ -16,7 +16,6 @@ body{padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 
@@ -24,10 +23,13 @@ button{
     margin: 15px;
     transform: rotate(-90deg);
     height: 50px;
-    color: blueviolet;
+    color: rgb(103, 47, 155);
     background-color:black;
     outline: 0;
     border: 0;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bold;
     
     
 }
@@ -83,4 +85,13 @@ img{
 
     
 
+}
+
+.hometext{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 190px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: justify;
 }
