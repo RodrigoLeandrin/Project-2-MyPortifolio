@@ -6,7 +6,7 @@ body{padding: 0;
 
 .navbar{
     position: absolute;
-    z-index: 0;
+    z-index: 1;
     margin-left: 0px;
     margin-top: 0px;
     width: 60px;
@@ -16,6 +16,7 @@ body{padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 
@@ -51,7 +52,9 @@ button :hover{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    z-index: 1;
     background-color:#272829;
+    animation: fade-up 0.3s;
 }
 
 .circlename pre{
@@ -65,15 +68,21 @@ button :hover{
 .section1{
     display: flex;
     width: 100%;
+    animation: fade-up 0.5s;
+
     
 }
 .Tittle{
     color: white;
     font-size: 10px;
     margin: auto;
+    animation: fade-up 0.5s;
+
 
 
 }
+
+
 
 
 
@@ -81,6 +90,8 @@ img{
     margin-left: 0%;
     padding: 0;
     height: 493px;
+    animation: fade-up 0.5s;
+    z-index: 0;
 
 
     
@@ -94,4 +105,32 @@ img{
     font-family: monospace;
     font-weight: bold;
     text-align: justify;
+}
+
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+a{
+    display: none;
+}
+
+
+.projectsection1{
+    color: white;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+
+
+
 }
