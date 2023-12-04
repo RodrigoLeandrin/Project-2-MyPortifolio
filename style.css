@@ -124,13 +124,24 @@ a{
 }
 
 
-.projectsection1{
+.projectssection1{
     color: white;
     width: 80%;
     align-items: center;
     text-align: center;
     position: absolute;
+    display: flex;
+    flex-direction: row;
 
+
+
+}
+
+.border{
+height: 493px;
+background-color: #8484d3;
+width: 470px;
+animation: fade-up 0.5s;
 
 
 }
