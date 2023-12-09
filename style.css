@@ -7,6 +7,7 @@ body{padding: 0;
 .navbar{
     position: absolute;
     z-index: 1;
+    gap: 10px;
     margin-left: 0px;
     margin-top: 0px;
     width: 60px;
@@ -121,10 +122,6 @@ img{
 }
 
 
-a{
-    display: none;
-}
-
 
 .projectssection1{
     color: white;
@@ -150,10 +147,11 @@ display: flex;
 }
 
 .htmllogo{
-    width: 50px;
-    height: 50px;
-    margin-left: 200px;
+    width: 75px;
+    height: 75px;
+    margin-left: 100px;
     margin-top: 50px;
+    position: absolute;
 
 
 }
@@ -163,11 +161,17 @@ display: flex;
     font-size: 16px;
     width: 300px;
     margin-left: 700px;
-    margin-top: 150px;
-    height: 500px;
+    margin-top: 40px;
+    height: 350px;
     font-family: monospace;
     font-weight: bold;
     position: absolute;
+    animation: fade-up 0.5s;
+
+}
+
+.author{
+    margin-left: 140px;
 }
 
 .emoji{
@@ -176,25 +180,67 @@ display: flex;
 }
 
 .csslogo{
-    width: 50px;
-    height: 50px;
-    margin-left: -130px;
+    width: 75px;
+    height: 75px;
+    margin-left: 210px;
     margin-top: 50px;
+    position: absolute;
 }
 
 .js{
-    width: 50px;
-    height: 50px;
-    margin-left: -100px;
+    width: 75px;
+    height: 75px;
+    margin-left: 320px;
     margin-top: 50px;
+    position: absolute;
+}
+
+
+.ai{
+    width: 75px;
+    height: 75px;
+    margin-left: 320px;
+    margin-top: 400px;
+    position: absolute;
+
+}
+
+.sql{
+    width: 100px;
+    height: 75px;
+    margin-left: 120px;
+    margin-top: 200px;
+    position: absolute;
+    background-color: black;
+    border-radius: 10%;
+
+}
+
+.jq{
+    width: 100px;
+    height: 75px;
+    margin-left: 280px;
+    margin-top: 200px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+}
+.ad{
+    width: 85px;
+    height: 85px;
+    margin-left: 100px;
+    margin-top: 390px;
+    position: absolute;
+
+
 }
 
 .projectstext{
     font-size: 16px;
     width: 300px;
     margin-left: 700px;
-    margin-top: 150px;
-    height: 500px;
+    margin-top: 25px;
+    height: 370px;
     font-family: monospace;
     font-weight: bold;
     position: absolute;
@@ -202,19 +248,20 @@ display: flex;
 }
 
 .cat{
-    width: 100px;
-    height: 100px;
-    margin-left: 800px;
-    margin-top: 200px;
+    width: 50px;
+    height: 50px;
+    margin-left: 490px;
+    margin-top: 160px;
     position: absolute;
 }
 
 
 .emojiprojects{
+    color: white;
     font-size: 25px;
     position: absolute;
-    margin-left: 770px;
-    margin-top: 200px;
+    margin-left: 920px;
+    margin-top: 375px;
     transform: rotate(90deg);
 
 
