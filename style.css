@@ -1,6 +1,7 @@
 body{padding: 0;
     margin: 0;
     background-color: #272829;
+    overflow: hidden;
 }
 
 
@@ -118,6 +119,18 @@ img{
     100%{
         opacity: 1;
         transform: translateY(0px) scale(1);
+    }
+}
+
+
+
+@keyframes scroll-up{
+    from{
+        transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(-50%);
     }
 }
 
@@ -266,3 +279,36 @@ display: flex;
 
 
 }
+
+.logos{
+    width: 10px;
+    height: 500px;
+    overflow: hidden;
+}
+.projectsslider{
+    display: flex;
+    flex-direction: column; 
+    position: absolute;  
+    animation: 15s scroll-up infinite linear;
+    margin-left: -400px;
+    
+
+}
+
+.projectsslider img{
+    width: 290px;
+    height: 145px;
+    margin: 25px 0;
+    border-radius: 20px;
+    }
+
+
+    .projectsslider h4{
+        font-family: monospace;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        margin: -10px;
+        font-weight: bold;
+
+    }
