@@ -132,6 +132,12 @@ img{
     to{
         transform: translateY(-50%);
     }
+    
+    hover{
+        animation-play-state: paused;
+        
+    }
+    
 }
 
 
@@ -289,8 +295,11 @@ display: flex;
     display: flex;
     flex-direction: column; 
     position: absolute;  
-    animation: 15s scroll-up infinite linear;
+    animation: 30s scroll-up infinite linear;
     margin-left: -400px;
+    &:hover{
+        animation-play-state: paused;
+    }
     
 
 }
