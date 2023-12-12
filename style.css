@@ -1,4 +1,5 @@
-body{padding: 0;
+body{
+    padding: 0;
     margin: 0;
     background-color: #272829;
     overflow: hidden;
@@ -300,6 +301,7 @@ display: flex;
     &:hover{
         animation-play-state: paused;
     }
+   
     
 
 }
@@ -320,4 +322,12 @@ display: flex;
         margin: -10px;
         font-weight: bold;
 
+    }
+    .background{
+        width: 470px;
+        height: 1500px;
+        background-color: #272829;
+        position: absolute;
+        z-index: 5;
+        margin-top: 490px;
     }
