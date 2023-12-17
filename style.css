@@ -133,11 +133,9 @@ img{
     to{
         transform: translateY(-50%);
     }
+
+
     
-    hover{
-        animation-play-state: paused;
-        
-    }
     
 }
 
@@ -162,6 +160,9 @@ background-color: #8484d3;
 width: 470px;
 animation: fade-up 0.5s;
 display: flex;
+padding: 0;
+margin: 0;
+
 
 
 }
